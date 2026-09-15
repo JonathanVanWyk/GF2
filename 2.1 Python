@@ -1,0 +1,22 @@
+print("2.1.1 Your very first program")
+print("\nHej Kenneth jeg skriver bare en lang kode for alle opgaverne i 2.1.5 Lab working with the print() function")
+
+print("\nHello World!")
+
+print("\nThe itsy bitsy spider. \n\nclimbed up the water spout.")
+print("\nDown came the rain. \n\nand washed the spider out.")
+
+print("\nOut came the sun.","\n\nand dried up all the rain.")
+print()
+print("My name is", "Jonathan.", end=" ")
+print("Jeg har styr på print.")
+print("\nMy", "name", "is", "Monty", "Python.", sep="-")
+print("\nMy", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+print()
+print("2.1.12 LAB")
+print()
+print("Programming","Essentials","in", sep="***", end="...")
+print("Python")
+print()
+print("Jeg har allerede smidt noget op på github i sidste uge.\nhttps://github.com/JonathanVanWyk/ZBC")
