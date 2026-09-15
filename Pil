@@ -1,0 +1,43 @@
+print("\n    *\n   * *\n  *   *\n *     *\n***   ***\n  *   *\n  *   *\n  *****") 
+
+print("    *       "* 2)
+print("   * *      "* 2)
+print("  *   *     "* 2)
+print(" *     *    "* 2)
+print("***   ***   "* 2)
+print("  *   *     "* 2)
+print("  *   *     "* 2)
+print("  *****     "* 2)
+
+pil = [
+    "    *",
+    "   * *",
+    "  *   *",
+    " *     *",
+    "***   ***",
+    "  *   *",
+    "  *   *",
+    "  *****"
+]
+
+for line in pil:
+      print(line.ljust(12) + line) #ljust value er afstanden mellem de 2 pile.
+
+arrow = [
+"    *    ",
+"   * *   ",
+"  *   *  ",
+" *     * ",
+"***   ***",
+"  *   *  ",
+"  *   *  ",
+"  *****  "
+]
+
+for line in arrow:
+    print("".join(c * 2 for c in line))
+    print("".join(c * 2 for c in line)) 
+    # * 2 = 2 tegn højere og bredere. 
+    #.join smider det tilbage i rigtige rækkefølge igen.
+    #"" betyder at den sætter det sammen igen uden at have mellemrum. Så den orden bliver genskabt som var der før.
+    #c er tegnene i hver linje som den skal gange op.
